@@ -204,7 +204,7 @@ int Add(int x, int y)
     {  
         // carry now contains common  
         //set bits of x and y  
-        int carry = x & y;  
+        unsigned int carry = x & y;  
   
         // Sum of bits of x and y where at  
         //least one of the bits is not set  
